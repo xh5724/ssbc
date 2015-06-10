@@ -10,8 +10,8 @@ from django.shortcuts import render, redirect
 
 from lib import politics
 
-API_URL = 'http://127.0.0.1:8001/api/'
-API_HOST = 'www.shousibaocai.com'
+API_URL = 'http://127.0.0.1:88/api/'
+API_HOST = '133.130.52.200'
 re_punctuations = re.compile(
     u"。|，|,|！|…|!|《|》|<|>|\"|'|:|：|？|\?|、|\||“|”|‘|’|；|—|（|）|·|\(|\)|　|\.|【|】|『|』|@|&|%|\^|\*|\+|\||<|>|~|`|\[|\]")
 req_session = requests.Session()
